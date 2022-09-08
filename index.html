@@ -4,84 +4,136 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Netflix Home-page</title>
+    <title>netflix login page</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div class="nav" id="nav">
-        <img src="pexels-muaaz-5852135.jpg" alt="" class="nav-logo">
-        <img src="pexels-cottonbro-4009409.jpg" alt="" class="nav-avatar">
-
-    </div>
-    <!-- header-->
-    <div class="banner">
-        <div class="banner-contents">
-            <h1 class="banner-title">STRANGER THINGS </h1>
-            <div class="banner-buttons">
-                <button class="banner-button">play</button>
-                <button class="banner-button">my list</button>
-
+    <div class="wrapper">
+        <div class="header">
+            <div class="logo">
+                <img src="Netflix-Logo.wine.svg" alt="">
             </div>
-            <div class="banner-description">
-                Stanger Things is an Ameriacn science fiction drama television series created by the Duffer Brothers
+            
+
+        </div>
+        <div class="login-body">
+            <div class="login-box">
+                <h2>Sign in</h2>
                 
 
-            </div>
+                    
 
-        </div>
-        <div class="banner-fadeButtom"></div>
-
-    </div>
-    <!--netflix post-->
-    <div class="row">
-        <h2>NETFLIX</h2>
-        <div class="row-posters">
-            <img src="pexels-cottonbro-5082566 (1).jpg" alt="" class="row-poster row-poster-large">
-            <img src="pexels-andrew-neel-7400096 (1).jpg" alt="" class="row-poster row-poster-large">
-            <img src="pexels-david-gomes-2752777.jpg" alt="" class="row-poster row-poster-large">
-            <img src="pexels-cottonbro-4009409.jpg" alt="" class="row-poster row-poster-large">
-
-        </div>
-        <!--trending now-->
-        <div class="row">
-            <h2>TRENDING NOW</h2>
-            <div class="row-posters">
-                <img src="pexels-david-gomes-2752777.jpg" alt="" class="row-poster">
-                <img src="pexels-andrew-neel-7400096 (1).jpg" alt="" class="row-poster">
-                <img src="pexels-cottonbro-5082566 (1).jpg" alt="" class="row-poster">
-                <img src="pexels-cottonbro-4009409.jpg" alt="" class="row-poster" >
-
-            </div>
-            <!--top rated-->
-            <div class="row">
-                <h2>TOP RATED</h2>
-                <div class="row-posters">
-                    <img src="pexels-cottonbro-4009409.jpg" alt="" class="row-poster">
-                    <img src="pexels-andrew-neel-7400096 (1).jpg" alt="" class="row-poster">
-                    <img src="pexels-cottonbro-5082566 (1).jpg" alt="" class="row-poster">
-                    <img src="pexels-david-gomes-2752777.jpg" alt="" class="row-poster">
-
-                </div>
-                <!-- action movies-->
-                <div class="row">
-                    <h2>ACTION MOVIES</h2>
-                    <div class="row-posters">
-                        <img src="pexels-andrew-neel-7400096 (1).jpg" alt=""  class="row-poster">
-                        <img src="pexels-david-gomes-2752777.jpg" alt="" class="row-poster">
-                        <img src="pexels-cottonbro-5082566 (1).jpg" alt="" class="row-poster">
-                        <img src="pexels-cottonbro-4009409.jpg" alt="" class="row-poster">
+                
+                
+                    <div class="input-wrap">
+                        <input type="text" id="prag" placeholder="Email or Phone Number">
 
                     </div>
+                    <div class="input-wrap">
+                        <input type="text" id="pass" placeholder="Password">
+
+                    </div>
+                    <div class="input-wrap">
+                        <button id="signin">Sign in</button>
+
+                    </div>
+                    <div class="support">
+                    <div class="remeber">
+                        <span><input type="checkbox"></span>
+                        <span>Remeber me</span>
+
+
+                        
+                        </div>
+                        <div class="need-help">
+                            Need Help?
+                            
+
+                            
+
+                        </div>
+                        
+
+                        </div>  
+                        <div class="login-footer">
+                            <div class="sign-up">
+                                <p>New to Netflix? <a href="#">Sign up Now</a></p>
+
+                            </div>
+                            <div class="terms">
+                                <p>This page is protected by Google. <a href="#">Learn More</a></p>
+
+                            </div>
+                            
+
+                        </div>
+                        
+
+                            </div>
+
+                        </div>                    
+
+                    
+
+                    
+                
+
+
+                
+
+                    </div>
+                    <footer>
+                        <div class="top">
+                            <a href="#">Questions? Contact Us</a>
+
+                        </div>
+                        <div class="links">
+                            <a href="">FAQ</a>
+                            <a href="">Help Center</a>
+                            <a href="">Terms of use</a>
+                            <a href="">Privacy</a>
+                            <a href="">Cookie prefrence</a>
+                            <a href="">Corporate Information</a>
+
+                        </div>
+                    </footer>
 
                 </div>
-
             </div>
 
         </div>
 
     </div>
-
     <script>
+        console.log('hii java');
+        var id = ""; 
+        var Passward = "pragati";
+        document.getElementById('prag').value;
+        var comingID =   document.getElementById('prag').value;
+        var submit =   document.getElementById('signin');
+        submit.addEventListener('click',xyz);
+        function xyz(){
+            console.log('hi')
+           
+            var comingID = document.getElementById('prag').value;
+            if(comingID == id){
+            alert('Input is required');
+        
+            
+
+        }
+
+    }
+
+    
+
+
+        
+
+        
+        
+
+
 
     </script>
     
